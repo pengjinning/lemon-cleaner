@@ -240,8 +240,6 @@
 		BC7FBE402268195600D025CF /* LMSplashMainAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7FBE3F2268195600D025CF /* LMSplashMainAppViewController.m */; };
 		BCD2CBF121806BEA005C2990 /* register_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD2CBF021806BE9005C2990 /* register_bg@2x.png */; };
 		BCD2CBF321806BF8005C2990 /* register_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD2CBF221806BF8005C2990 /* register_bg@3x.png */; };
-		D462673221DDD07D005BC358 /* LMPhotoViewItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F86C2232140BF8B00B8C0A9 /* LMPhotoViewItem.xib */; };
-		D462675021DDD07D005BC358 /* PhotoCollectionViewHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F86C2252140BFBB00B8C0A9 /* PhotoCollectionViewHeader.xib */; };
 		D462677921DDD0E0005BC358 /* Lemonas-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D462677821DDD0E0005BC358 /* Lemonas-Info.plist */; };
 		D46267D021DDEEA4005BC358 /* LemonDaemon in Copy Files */ = {isa = PBXBuildFile; fileRef = D46267A921DDED73005BC358 /* LemonDaemon */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		D470B28E22410FC100793F4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D4F5E320F5C3BC0048F108 /* Assets.xcassets */; };
@@ -2124,8 +2122,12 @@
 			);
 			inputFileListPaths = (
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2385,12 +2387,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Lemon/Tencent Lemon.entitlements";
-				CODE_SIGN_IDENTITY = "Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 60;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L5F47963M2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2428,7 +2430,7 @@
 					"\"QMUICommon\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.Lemon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedesk.cleaner;
 				PRODUCT_NAME = "Tencent Lemon";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -2442,12 +2444,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "Lemon/Tencent Lemon.entitlements";
-				CODE_SIGN_IDENTITY = "Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 60;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = L5F47963M2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2485,7 +2487,7 @@
 					"\"QMUICommon\"",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tencent.Lemon;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedesk.cleaner;
 				PRODUCT_NAME = "Tencent Lemon";
 				PROVISIONING_PROFILE = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";

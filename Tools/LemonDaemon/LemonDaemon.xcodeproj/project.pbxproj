@@ -20,8 +20,6 @@
 		B79C27C82B84925400838B76 /* McFanInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C27BE2B84925300838B76 /* McFanInfo.m */; };
 		B79C27C92B84925400838B76 /* McTemperatureInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C27C22B84925400838B76 /* McTemperatureInfo.m */; };
 		B79C27D12B84957700838B76 /* McCpuInfoSMC.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C27D02B84957700838B76 /* McCpuInfoSMC.m */; };
-		AFCEF47597E1AACD788773BB /* Pods_LemonDaemon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E173883597AA1AF503B1FA /* Pods_LemonDaemon.framework */; };
-		BC68429F225DA7020074B2D2 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68429D225DA7020074B2D2 /* NSString+Extension.m */; };
 		BC6842B8225E0E980074B2D2 /* ExecuteCmdHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6842B6225E0E970074B2D2 /* ExecuteCmdHelper.m */; };
 		BC8254EE22FA7DF100292FA5 /* LMKextManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BC8254ED22FA7DF100292FA5 /* LMKextManager.m */; };
 		D466802221AE8B6500704647 /* LMDaemonXPCService.m in Sources */ = {isa = PBXBuildFile; fileRef = D466802121AE8B6500704647 /* LMDaemonXPCService.m */; };
@@ -672,9 +670,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A36FA88920478B5FBB32539 /* Pods-LemonDaemon.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5F47963M2;
 				ENABLE_HARDENED_RUNTIME = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "LemonDaemon/LemonDaemon-Prefix.pch";
@@ -687,6 +685,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp=none";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedesk.cleanerdeamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -696,9 +695,9 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 296103B8AF2A800CC0A3A3E4 /* Pods-LemonDaemon.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5F47963M2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_PREFIX_HEADER = "LemonDaemon/LemonDaemon-Prefix.pch";
@@ -710,6 +709,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				OTHER_CODE_SIGN_FLAGS = "--timestamp";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bytedesk.cleanerdeamon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};

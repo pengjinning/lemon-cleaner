@@ -350,7 +350,6 @@
 				B7520ADC2E161F4C0060123F /* OwlWhitelistExpandCell.h in Headers */,
 				B77E9C102DD31F050050712D /* Owl2AppItem.h in Headers */,
 				B7BDBD252DB851CF00FB5ADF /* Owl2Manager+LocaFile.h in Headers */,
-				B77E9C062DD31E450050712D /* Owl2Manager+QMReport.h in Headers */,
 				D49FA50821DDA5D9004A416E /* OwlWindowController.h in Headers */,
 				2A2853E92DCAF8F7004DD03D /* OwlListPlaceHolderView.h in Headers */,
 				339CCC6A2D97D95D00F8C67A /* Owl2Manager.h in Headers */,
@@ -649,10 +648,11 @@
 			baseConfigurationReference = 84ABFFA76FCAA860B1D880C4 /* Pods-PrivacyProtect.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = L5F47963M2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -680,10 +680,11 @@
 			baseConfigurationReference = B3B01B25E9CCD907438AA8D3 /* Pods-PrivacyProtect.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "Developer ID Application: Tencent Technology (Shenzhen) Company Limited (88L2Q4487U)";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = L5F47963M2;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
